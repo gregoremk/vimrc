@@ -2,6 +2,7 @@ set nocompatible
 filetype on
 filetype plugin indent on
 syntax on
+set number
 set tabstop=2
 set autoindent
 set shiftwidth=2
@@ -28,5 +29,8 @@ Plug 'https://github.com/moll/vim-bbye.git'
 :nnoremap <Leader>q :Bdelete<CR>
 " close all windows on \a without closing vim
 :nnoremap <Leader>a :bufdo :Bdelete<CR>
+
+" Emmet
+Plug 'mattn/emmet-vim'
 
 call plug#end()
