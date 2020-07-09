@@ -17,6 +17,9 @@ let g:php_version_id = 70402
 
 " status bar
 Plug 'itchyny/lightline.vim'
+let g:lightline = {
+  \ 'colorscheme': 'darcula',
+  \ }
 
 " file tree
 Plug 'preservim/nerdtree'
